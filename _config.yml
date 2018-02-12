@@ -1,0 +1,32 @@
+title: Policy Club
+email: juan@compiler.la
+description: >- # this means to ignore newlines until "baseurl:"
+  The Policy Club informs California lawmakers of smarter public 
+  policies that will move the needle on some of California’s most 
+  pressing challenges.
+baseurl: "/new-site" # the subpath of your site, e.g. /blog
+url: "https://policyclub.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter: "https://twitter.com/policy_club"
+facebook: "https://www.facebook.com/thepolicyclub"
+github:  "https://github.com/policyclub"
+address: "Los Angeles, CA"
+google_analytics: <UA-CODE>
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
